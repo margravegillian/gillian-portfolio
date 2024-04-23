@@ -1,9 +1,9 @@
 <script>
     import Step from "./Step.svelte";
     let steps =[
-        {name: 'garneson', icon: 'fa-solid fa-cart-shopping'},
-        {name: 'moonstone', icon: ' fa-ssolid fa-list-check'},
-        {name: 'game db', icon: 'fa-solid fa-diagram-project'},
+        {name: 'Software Inventory', icon: 'fa-solid fa-cart-shopping'},
+        {name: 'Moonstone', icon: ' fa-ssolid fa-list-check',href:"https://github.com/urvaius/Moonstone3.App"},
+        {name: 'Games', icon: 'fa-solid fa-diagram-project'},
     ];
     let benefits = [
         {name: 'An Information Security Engineer', description: 'Design, implement, and maintain security infrastructure, including firewalls, intrusion detection/prevention systems, antivirus software, and encryption protocols'},
@@ -68,15 +68,15 @@
             <p>Watch the video!</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-            <Step step={steps[0]}>
-                <p>Garneson is where I am going to do todo here<strong class="text-violet-400">some other items here about this</strong></p>
+            <Step step={steps[0]} >
+                <p>Software Inventory <strong class="text-violet-400"> I have built a fullstack software inventory system using c# blazor and SQLserver. I enjoy working on fullstack projects</strong></p>
                 </Step>
             <Step step={steps[1]}>
                 
-                <p>moonstone is an android app using<strong class="text-violet-400">maui c#</strong></p>
+                <p> Moonstone is simple android app using <strong class="text-violet-400">c# MAUI. It has a flashlight, and soundboard</strong></p>
                 </Step>
             <Step step={steps[2]}>
-                <p>game db is <strong class="text-violet-400">some other items here about this</strong></p>
+                <p>Games <strong class="text-violet-400"> I love working on game development. Though I tend to go from framework to framework trying new things. I would like to work on something for the long term soon</strong></p>
 
 
             </Step>
