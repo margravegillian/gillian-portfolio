@@ -23,15 +23,21 @@
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400">favorite tech</span> includes C#, Python, Node.js, ,Metasploit, Monogame & Docker!
             </p>
-            <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
-                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200 cursor-pointer" 
-                href="#"
-                target="_blank"
 
+
+            <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
+            >
+            <a href="mailto:margravegillian@gmail.com"
+                target="_blank">
+
+                <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200 cursor-pointer" 
+                                
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
+                
 
             </button>
+           
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <!-- svelte-ignore a11y-img-redundant-alt -->
