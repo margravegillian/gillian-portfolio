@@ -7,7 +7,7 @@
     ];
     let benefits = [
         {name: 'An Information Security Engineer', description: 'Design, implement, and maintain security infrastructure, including firewalls, intrusion detection/prevention systems, antivirus software, and encryption protocols'},
-        {name: 'A self taught develoer', description: 'I started programming on the commodor 64 when I was 12 years old. I have been continuing to learn programming my whole life.'},
+        {name: 'A self taught developer', description: 'I started programming on the commodor 64 when I was 12 years old. I have been continuing to learn programming my whole life.'},
         {name: 'A motorcycle enthusiast', description: 'I enjoy riding and racing motorcycles'},
 
     ]
