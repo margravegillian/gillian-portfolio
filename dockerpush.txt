@@ -1,3 +1,29 @@
 commands
 
 docker run -d -p 3000:3000 gillian-portfolio
+use 80 for build
+
+
+
+
+npm run build
+docker build -t gillian-portfolio . 
+//may not need to run this if delete all gillian portfolio images and containers
+docker run -it -p 8099:80 --rm --name gillian-porfolio1 gillian-portfolio
+then close then do
+delete image on container gillian-portfolio
+
+do build for hub
+docker build -t urvaius/gillian-portfolio .
+or 
+run npm run image
+
+run
+docker run -it -p 3000:3000 --rm urvaius/gillian-portfolio
+
+push to hub
+docker push urvaius/gillian-portfolio
+
+build for amd maybe
+clear
+  docker buildx build --platform linux/amd64 -t urvaius/gillian-portfolio .     

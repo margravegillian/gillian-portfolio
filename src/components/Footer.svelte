@@ -27,6 +27,14 @@
                 
             </span></sup>
         </a></p>
+
+         <p><b class="pr-2">Website (in progress)</b>
+        <a class="text-violet-400" target="_blank" href="https://home.margravesenclave.com/">
+            MargravesEnclave.com<sup ><span class="text-xs scale-75 pl-0.5">
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
+                
+            </span></sup>
+        </a></p>
     </div>
 </footer>
 

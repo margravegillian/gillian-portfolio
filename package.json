@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"image": "docker build -t gillian-portfolio ."
+		"image": "docker build -t urvaius/gillian-portfolio ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
