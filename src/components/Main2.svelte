@@ -51,12 +51,12 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
+                Hi! I'm <span class="poppins text-pink-600">Samuel</span> Oak
                 <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                <span class="poppins text-pink-600">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
+                My <span class="text-pink-600"> favorite tech</span> includes JavaScript
                 (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
                 or Firebase/Firestore!
             </p>
@@ -64,7 +64,7 @@
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                    class="absolute top-0 right-full w-full h-full bg-pink-600 opacity-20 group-hover:translate-x-full z-0 duration-200"
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </button>
@@ -98,7 +98,7 @@
                 A few of my creative endeavors.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-violet-400">see</span> my work?
+                Curious to <span class="poppins text-pink-600">see</span> my work?
             </h3>
         </div>
         <a
@@ -113,7 +113,7 @@
             <Step step={steps[0]}>
                 <p>
                     Smoljames Store is a a merchanising store created with <strong
-                        class="text-violet-400"
+                        class="text-pink-600"
                         >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
                     > Commerce.js is a product CMS and Stripe is used for all transaction
                     handling.
@@ -122,24 +122,24 @@
             <Step step={steps[1]}>
                 <p>
                     Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
+                        class="text-pink-600">Next.js</strong
                     >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
+                    <strong class="text-pink-600">Node.js + Express.js</strong
                     >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
+                    & <strong class="text-pink-600">Firebase</strong> CRUD application
                     that allows a user to login, manage a tidy and efficacious todo
                     list, and persist this information across devices.
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
+                    The Pokédex is a <strong class="text-pink-600"
                         >SvelteKit & TailwindCSS</strong
                     >
                     web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
+                    <strong class="text-pink-600">Netlify</strong>, that
                     consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
+                    <strong class="text-pink-600">Pokémon API</strong>
                     to display all Pokémon information. Gotta catch them all!
                 </p>
             </Step>
@@ -157,7 +157,7 @@
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> me.
+                A bit <span class="poppins text-pink-600">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -196,7 +196,7 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            The <span class="text-pink-600">Complete</span> Package
         </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"

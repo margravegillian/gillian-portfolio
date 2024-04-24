@@ -5,7 +5,7 @@
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
         <p><b class="pr-2">Email</b>
-            <a class="text-violet-400" target="_blank" href="mailto:margravegillian@gmail.com">
+            <a class="text-pink-600" target="_blank" href="mailto:margravegillian@gmail.com">
                 margravegillian@gmail.com<sup ><span class="text-xs scale-75 pl-0.5">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
     
@@ -14,14 +14,14 @@
 
 
         <p><b class="pr-2">Github</b>
-        <a class="text-violet-400" target="_blank" href="https://github.com/urvaius">
+        <a class="text-pink-600" target="_blank" href="https://github.com/urvaius">
             Gillian Arneson<sup ><span class="text-xs scale-75 pl-0.5">
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
 
             </span></sup>
         </a></p>
          <p><b class="pr-2">LinkedIn</b>
-        <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/gillian-arneson-38096525/">
+        <a class="text-pink-600" target="_blank" href="https://www.linkedin.com/in/gillian-arneson-38096525/">
             Gillian Arneson<sup ><span class="text-xs scale-75 pl-0.5">
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
                 
@@ -29,7 +29,7 @@
         </a></p>
 
          <p><b class="pr-2">Website (in progress)</b>
-        <a class="text-violet-400" target="_blank" href="https://home.margravesenclave.com/">
+        <a class="text-pink-600" target="_blank" href="https://home.margravesenclave.com/">
             MargravesEnclave.com<sup ><span class="text-xs scale-75 pl-0.5">
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
                 
