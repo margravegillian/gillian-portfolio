@@ -22,8 +22,8 @@ run
 docker run -it -p 3000:3000 --rm urvaius/gillian-portfolio
 
 push to hub
-docker push urvaius/gillian-portfolio
+docker push margravegillian/gillian-portfolio
 
 build for amd maybe
 clear
-  docker buildx build --platform linux/amd64 -t urvaius/gillian-portfolio .     
+  docker buildx build --platform linux/amd64 -t margravegillian/gillian-portfolio .     
