@@ -6,9 +6,9 @@
         {name: 'Games', icon: 'fa-solid fa-hat-wizard', href:"https://github.com/urvaius"},
     ];
     let benefits = [
-        {name: 'An Information Security Engineer', description: 'Design, implement, and maintain security infrastructure, including firewalls, intrusion detection/prevention systems, antivirus software, and encryption protocols'},
-        {name: 'A self taught developer', description: 'I started programming on the commodor 64 when I was 12 years old. I have been continuing to learn programming my whole life.'},
-        {name: 'A motorcycle enthusiast', description: 'I enjoy riding and racing motorcycles'},
+        {name: 'An Information Security Engineer', description: 'Design, implement, and maintain security infrastructure, including firewalls, intrusion detection/prevention systems, antivirus software, and encryption protocols',image:'images/cyber.png'},
+        {name: 'A self taught developer', description: 'I started programming on the commodor 64 when I was 12 years old. I have been continuing to learn programming my whole life.',image:'images/commodorebook.jpg'},
+        {name: 'A motorcycle enthusiast', description: 'I enjoy riding motorcycles and doing track days with my son!!',image:'images/GilandEzra.jpg'}
 
     ]
 </script>
@@ -117,7 +117,17 @@
                         {benefit.name}
                     </h3>
                     <p>{benefit.description}</p>
+                    <div class="relative shadow-2xl grid place-items-center">
+                     <!-- svelte-ignore a11y-img-redundant-alt -->
+                     <img src={benefit.image}
+                             alt="image" 
+                        class="object-cover z-[2] max-h-[70vh]"/>
+                     </div>
+
+                     
                 </div>
+
+               
             </div>
             {/each}
         </div>
