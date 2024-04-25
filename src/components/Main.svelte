@@ -1,9 +1,9 @@
 <script>
     import Step from "./Step.svelte";
     let steps =[
-        {name: 'Software Inventory', icon: 'fa-solid fa-code', href:"https://github.com/urvaius"},
-        {name: 'Moonstone', icon: 'fa-regular fa-moon',href:"https://github.com/urvaius/Moonstone3.App"},
-        {name: 'Games', icon: 'fa-solid fa-hat-wizard', href:"https://github.com/urvaius"},
+        {name: 'Software Inventory', icon: 'fa-solid fa-code', href:"https://github.com/margravegillian"},
+        {name: 'Moonstone', icon: 'fa-regular fa-moon',href:"https://github.com/margravegillian/Moonstone3.App"},
+        {name: 'Games', icon: 'fa-solid fa-hat-wizard', href:"https://github.com/margravegillian"},
     ];
     let benefits = [
         {name: 'An Information Security Engineer', description: 'Design, implement, and maintain security infrastructure, including firewalls, intrusion detection/prevention systems, antivirus software, and encryption protocols',image:'images/cyber.png'},
