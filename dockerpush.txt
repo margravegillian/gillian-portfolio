@@ -26,4 +26,4 @@ docker push margravegillian/gillian-portfolio
 
 build for amd maybe
 clear
-  docker buildx build --platform linux/amd64 -t margravegillian/gillian-portfolio .     
+ docker buildx build --platform linux/amd64 -t margravegillian/gillian-portfolio .     

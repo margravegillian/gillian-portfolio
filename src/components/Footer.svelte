@@ -42,13 +42,13 @@
             </span></sup>
         </a></p>
 
-         <p><b class="pr-2 fa-solid fa-heart-pulse">)</b>
+        <!--  <p><b class="pr-2 fa-solid fa-heart-pulse"></b>
         <a class="text-pink-600" target="_blank" href="https://home.margravesenclave.com/">
             home.margravesenclave.com<sup ><span class="text-xs scale-75 pl-0.5">
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
                 
             </span></sup>
-        </a></p>
+        </a></p> -->
     </div>
 </footer>
 
