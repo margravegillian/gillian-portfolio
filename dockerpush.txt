@@ -19,7 +19,7 @@ or
 run npm run image
 
 run
-docker run -it -p 3000:3000 --rm urvaius/gillian-portfolio
+docker run -it -p 3000:3000 --rm margravegillian/gillian-portfolio
 
 push to hub
 docker push margravegillian/gillian-portfolio
