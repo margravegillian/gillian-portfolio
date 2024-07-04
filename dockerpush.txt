@@ -14,7 +14,7 @@ then close then do
 delete image on container gillian-portfolio
 
 do build for hub
-docker build -t urvaius/gillian-portfolio .
+docker build -t margravegillian/gillian-portfolio .
 or 
 run npm run image
 
